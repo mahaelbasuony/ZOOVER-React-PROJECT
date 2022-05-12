@@ -1,0 +1,68 @@
+.accommodations_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    /* align-items: baseline; */
+}
+
+.filter_sort {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    background-color: rgb(238, 231, 231);
+    /* width: 70%; */
+}
+
+.filtter_title {
+    font-size: 25px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    padding-top: 16px;
+}
+
+.filter_subtitle {
+    font-size: 18px;
+}
+
+.filtter_sort_inputs {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 16px;
+}
+
+.filtter_input {
+    width: 50%;
+    margin-left: 16px;
+}
+
+.fillter_with_who {
+    width: 60%;
+    height: 40px;
+    border-radius: 7px;
+    padding: 8px 8px;
+    display: inline-block;
+    border: 1px solid rgb(214, 208, 208);
+    box-sizing: border-box;
+}
+
+.sort_input {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 20%;
+}
+
+.view_pagination {
+    font-size: 20px;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    margin-top: 16px;
+    width: 70%;
+}
+
+.pagination_note {
+    margin-right: 18px;
+}

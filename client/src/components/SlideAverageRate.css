@@ -1,0 +1,22 @@
+progress[value] {
+    /* Reset the default appearance */
+    -webkit-appearance: none;
+    appearance: none;
+    width: 450px;
+    height: 30px;
+    background-color: rgb(192, 183, 183);
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: rgb(192, 183, 183);
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgb(192, 183, 183) inset;
+}
+
+progress[value]::-webkit-progress-value {
+    background-color: rgb(89, 143, 243);
+}
+
+.slider {
+    margin-bottom: 16px;
+}

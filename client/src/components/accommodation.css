@@ -1,0 +1,108 @@
+.accommodation {
+    margin: 20px 20px 0;
+}
+
+.accommodation_detials {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    text-align: left;
+    border-bottom: 1px solid rgb(206, 197, 197);
+}
+
+.view_accommodation_details {
+    display: flex;
+    flex-direction: row;
+}
+
+.accommodation_main_details {
+    width: 60%;
+    margin-left: 16px;
+    margin-top: 20px;
+}
+
+.accommodation_user_data {
+    color: gray;
+    font-size: 15px;
+}
+
+.accommodation_user_data span {
+    font-weight: bold;
+    color: rgb(80, 78, 78);
+}
+
+.Accomodation_title {
+    margin-top: 8px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.accommodation_content {
+    width: 90%;
+    margin-top: 12px;
+}
+
+.about_trip {
+    background-color: rgb(191, 228, 252);
+    width: 450px;
+    height: 100px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.about_trip__title {
+    margin-top: 8px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.travel_date {
+    font-weight: bold;
+    padding-left: 8px;
+}
+
+.travel_with {
+    font-weight: bold;
+    padding-left: 8px;
+}
+
+.rating_aspects_title {
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 16px;
+    margin-bottom: 16px;
+}
+
+.Rate_values {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 16px;
+}
+
+
+/*
+
+
+
+
+
+
+
+
+.accommodation_body {
+    display: flex;
+    flex-flow: row;
+}
+
+
+
+.aspects {}
+.aspects_rating {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.aspects_rate {}
+ */

@@ -1,0 +1,42 @@
+.accommodation {
+    width: 70%;
+}
+
+.view_accommodation {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-bottom: 16px;
+}
+
+.accommodation_title {
+    font-size: 60px;
+    margin-bottom: 16px;
+}
+
+.accommodation_description {
+    align-self: left;
+    font-size: 20px;
+}
+
+.accommdation_average_rating_title {
+    font-size: 30px;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+.accommdation_average_rating {
+    display: flex;
+    justify-content: space-between;
+}
+
+.traveled_with_title {
+    font-size: 30px;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+.accommdation_travelwith_percentages {
+    display: flex;
+    justify-content: space-between;
+}

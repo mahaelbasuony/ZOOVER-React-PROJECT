@@ -1,0 +1,29 @@
+.accommodations {
+    width: 90%;
+}
+
+.paginationBttns {
+    width: 80%;
+    height: 40%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.paginationBttns a {
+    padding: 10px;
+    color: rgb(20, 113, 227);
+    ;
+    border-radius: 5px;
+    border: 1px solid rgb(20, 113, 227);
+}
+
+.paginationBttns a:hover {
+    color: white;
+    background-color: rgb(20, 113, 227);
+}
+
+.paginationActive a {
+    color: white;
+    background-color: rgb(20, 113, 227);
+}
